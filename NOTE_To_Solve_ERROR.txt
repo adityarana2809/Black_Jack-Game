@@ -1,0 +1,5 @@
+You are using Python 2 for which the input() function tries to evaluate the expression entered. Because you enter a string, Python treats it as a name and tries to evaluate it. If there is no variable defined with that name you will get a NameError exception.
+
+To fix the problem, in Python 2, you can use raw_input(). This returns the string entered by the user and does not attempt to evaluate it.
+
+Note that if you were using Python 3, input() behaves the same as raw_input() does in Python 2.
